@@ -33,3 +33,4 @@ func main() {
 // Questions
 
 // Is there any other variable initialization keywords besides `var`? Like `const` and such?
+// A: Next lesson taught this. `const` does exist.
