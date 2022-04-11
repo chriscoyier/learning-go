@@ -30,8 +30,12 @@ func main() {
 
 // I tend to set the file up and run it often as I'm writing it out to see it's all in order. I ran this before I wrote `i = i + 1` and it was happy to run. Would that just run forever in the VS Code console? Would it eventually crash something?
 
+// The syntax is so interesting. No parens. In this exercise it feels to me like it takes zero, one, or three "params" / "arguments", but that's not really the right work for it? Hard to reason out what is valid here and what isn't
+
 // What scope is `j` in? The parent `main()` scope or the `for` scope?
 
 // `continue` is interesting! I guess JavaScript has that too but I've literally never used it
 
 // Looks like if you write an infinite loop, like `for { }`, VS Code warns you for any code after it as "unreachable" code. Reminds me of accidentally writing code after a function returns.
+
+// Do Go ... "files"(?) ever have multiple packages?
