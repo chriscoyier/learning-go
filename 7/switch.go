@@ -6,15 +6,17 @@ import (
 )
 
 func main() {
-	i := 2
+	i := 1
 
 	fmt.Print("Write ", i, " as ")
 
 	switch i {
 	case 1:
 		fmt.Println("one")
+		fallthrough
 	case 2:
 		fmt.Println("two")
+		fallthrough
 	case 3:
 		fmt.Println("three")
 	}
