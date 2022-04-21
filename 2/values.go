@@ -13,6 +13,10 @@ func main() {
 	fmt.Println(!true)
 }
 
+func test() {
+	fmt.Println("test")
+}
+
 // Lesson learned: I accidently named this file ` values.go` at first, with a space in front it, and it broke everything.
 
 // Questions
